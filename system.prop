@@ -10,7 +10,7 @@ persist.audio.fluence.voicerec=false
 persist.audio.fluence.speaker=true
 tunnel.audio.encode=false
 media.aac_51_output_enabled=true
-audio.offload.buffer.size.kb=64
+audio.offload.buffer.size.kb=512
 audio.offload.video=true
 audio.offload.pcm.16bit.enable=false
 audio.offload.pcm.24bit.enable=true
@@ -21,7 +21,7 @@ audio.offload.multiaac.enable=true
 audio.offload.gapless.enabled=true
 audio.safx.pbe.enabled=true
 audio.parser.ip.buffer.size=262144
-audio.dolby.ds2.enabled=false
+audio.dolby.ds2.enabled=true
 audio.dolby.ds2.hardbypass=false
 audio.offload.passthrough=false
 audio.offload.multiple.enabled=true
@@ -57,7 +57,7 @@ persist.data.mode=concurrent
 
 # Display
 ro.qualcomm.cabl=0
-ro.sf.lcd_density=640
+ro.sf.lcd_density=680
 
 # Factory Reset Protection (FRP)
 ro.frp.pst=/dev/block/bootdevice/by-name/persistent
